@@ -20,8 +20,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../static/style/style.css">
-
     <script src="https://kit.fontawesome.com/0212e5d715.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -44,7 +42,7 @@
         #intro {
             background-color: #D5E5F2;
             padding: 1% 9% 1% 7%;
-            margin-bottom:20px;
+            padding:2% 7% 10% 7%;
 
         }
 
@@ -78,8 +76,7 @@
             color: #024059;
         }
 
-
-        .logout {
+        .logout{
             color: #03738C;
         }
 
@@ -202,13 +199,21 @@
                 </div>
             </nav>
             <!-- Navbar End -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="../static/images/home_image-removebg-preview.png" alt="">
+                </div>
 
+                <div class="intro-quote col-lg-6">
+                    <h1>A Platform for<br>Precision Agriculture</h1>
+                    <button type="button" class="btn btn-outline-dark btn-lg">Learn More</button>
+                </div>
+
+            </div>
 
         </div>
 
     </section>
-    {%block content%}
-    {%endblock content%}
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <p class="col-md-4 mb-0 text-muted">© 2021 AgroHub.AI</p>
